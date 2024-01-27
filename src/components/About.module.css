@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px 50px;
+  height: 100%;
+}
+
+.grid-item {
+  background-color: var(--section-background-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+  padding: 20px;
+}
+
+.my-name {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.slogan {
+  font-size: 33px;
+  padding-bottom: 50px;
+  opacity: 0.8;
+}
+
+.description {
+  font-style: italic;
+  opacity: 0.6;
+  padding-bottom: 80px;
+}
+
+.download-btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--section-background-color);
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.download-btn:hover {
+  opacity: 0.8;
+}
+
+@media(max-width: 1200px) {
+  .grid {
+    grid-template-columns: auto;
+  }
+}

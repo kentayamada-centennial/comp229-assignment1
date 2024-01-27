@@ -1,0 +1,8 @@
+.header {
+  height: 10vh;
+}
+
+.main {
+  height: 90vh;
+  padding: 50px var(--side-padding);
+}

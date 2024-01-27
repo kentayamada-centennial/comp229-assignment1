@@ -1,0 +1,29 @@
+:root {
+  --background-color: #f5f5f7;
+  --section-background-color: #ffffff;
+  --side-padding: 100px;
+  --primary-color: #0066cc;
+  --secondary-color: #1d1d1f
+}
+
+body {
+  font-family: Inter;
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}

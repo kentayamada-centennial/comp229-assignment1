@@ -1,1 +1,1 @@
-# comp229-assignment1
+# COMP229 Assignment 1
