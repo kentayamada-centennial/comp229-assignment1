@@ -1,7 +1,9 @@
+/* Home.jsx, Kenta Yamada, 301366037, 2024/01/27 */
+
 import { Link } from "react-router-dom";
 import {
   name,
-  githubIcon,
+  icon,
   grid,
   gridItem,
   statement,
@@ -43,7 +45,12 @@ export default function Home() {
           href="https://github.com/kentayamada-centennial/comp229-assignment1"
         >
           <button className={iconBtn}>
-            <i className={`fa fa-github ${githubIcon}`} />
+            <i className={`fa-brands fa-github ${icon}`} />
+          </button>
+        </a>
+        <a target="_blank" href="https://dev.to/kentayamadacentennial">
+          <button className={iconBtn}>
+            <i className={`fa-brands fa-dev ${icon}`} />
           </button>
         </a>
       </div>

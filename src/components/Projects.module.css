@@ -1,4 +1,6 @@
-.wrap {
+/* Projects.module.css, Kenta Yamada, 301366037, 2024/01/27 */
+
+.wrapper {
   scroll-snap-type: x mandatory;
   white-space: nowrap;
   overflow-x: auto;

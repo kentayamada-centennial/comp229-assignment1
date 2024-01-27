@@ -1,3 +1,5 @@
+/* NavigationBar.jsx, Kenta Yamada, 301366037, 2024/01/27 */
+
 import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import { navBar, list } from "./NavigationBar.module.css";

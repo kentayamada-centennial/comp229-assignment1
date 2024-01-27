@@ -1,3 +1,5 @@
+/* NavigationBar.module.css, Kenta Yamada, 301366037, 2024/01/27 */
+
 .nav-bar {
   background-color: var(--section-background-color);
   display: flex;

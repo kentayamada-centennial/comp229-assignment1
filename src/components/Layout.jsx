@@ -1,3 +1,5 @@
+/* Layout.jsx, Kenta Yamada, 301366037, 2024/01/27 */
+
 import NavigationBar from "./NavigationBar";
 import Home from "./Home";
 import About from "./About";
